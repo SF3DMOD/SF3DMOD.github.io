@@ -40,7 +40,7 @@ jobs:
           RAW_URL="${{ steps.pages.outputs.base_url }}"
 
           # Strip both http:// and https:// prefixes
-          CLEANED_URL="${RAW_URL#http:///}"
+          CLEANED_URL="${RAW_URL#http://}"
           CLEANED_URL="${CLEANED_URL#https://}"
 
           # Save it to the environment output
