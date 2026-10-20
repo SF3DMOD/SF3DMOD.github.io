@@ -5,3 +5,4 @@
 [submodule "content"]
 	path = content
 	url = https://github.com/SF3DMOD/SF3DMOD_obsidian.git
+	branch = master

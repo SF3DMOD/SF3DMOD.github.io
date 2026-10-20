@@ -20,7 +20,7 @@ jobs:
 
       - name: Update content submodule
         run: |
-          git submodule update --remote --merge content
+          git submodule update --remote content
 
       - name: Commit submodule update
         run: |
