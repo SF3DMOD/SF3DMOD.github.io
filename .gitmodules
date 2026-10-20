@@ -2,3 +2,6 @@
 	path = runtime
 	url = https://github.com/jackyzha0/quartz.git
 	branch = v5
+[submodule "content"]
+	path = content
+	url = https://github.com/SF3DMOD/SF3DMOD_obsidian.git
